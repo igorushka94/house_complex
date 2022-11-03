@@ -1,0 +1,42 @@
+.Menu {
+    /* Menu */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 532px;
+    height: 20px;
+    left: calc(50% - 532px/2 + 39px);
+    top: 40px;
+}
+
+.Menu-item {
+    /* О компании */
+    width: 104px;
+    height: 20px;
+
+    /* Body/Body Medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* identical to box height */
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Blue/Blue 03 */
+    color: #002040;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
