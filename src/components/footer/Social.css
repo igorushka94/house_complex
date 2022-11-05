@@ -1,0 +1,126 @@
+.Social {
+    /* Links / Social / Up button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 701px;
+
+    width: 1280px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.Social-document-links {
+    /* Links */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+
+    width: 456px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Social-document-links-items {
+    /* Политика конфиденциальности */
+
+    width: 278px;
+    height: 20px;
+
+    /* Body/Body SemiBold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* identical to box height */
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White & Gray/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Social-icon {
+    /* Social / Up button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 215px;
+    height: 25px;
+}
+
+.Social-icon {
+    /* Social */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 115px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Social-up-button {
+    /* Up button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5px 20px;
+    gap: 10px;
+
+    width: 60px;
+    height: 25px;
+
+    /* White & Gray/White */
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    cursor: pointer;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

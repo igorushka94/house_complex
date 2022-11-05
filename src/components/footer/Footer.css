@@ -1,0 +1,26 @@
+.Footer {
+    /* Footer */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 1920px;
+    height: 418px;
+    left: 0px;
+    top: 8085px;
+
+    /* Blue/Blue 03 */
+    background: #002040;
+}
+
+.Line {
+    /* Line */
+
+    background: rgba(255, 255, 255, 0.25);
+}
