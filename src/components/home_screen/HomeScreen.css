@@ -1,11 +1,35 @@
 .HomeScreen {
     /* Гл. экран */
-
-    position: absolute;
-    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 800px;
-    left: 0px;
-    top: 0px;
+    background: url("../../assets/img/body.jpg");
+}
+
+.HomeScreen.part1 {
+    width: 50%;
+    opacity: 0.8;
+    background: white;
+}
+
+.HomeScreen.part2 {
+    width: 30%;
+    background: white;
+    opacity: 0.8;
+    clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+}
+
+.HomeScreen.part3 {
+    width: 30%;
+}
+
+.HomeScreen2 {
+    z-index: 10000;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
 
 .HomeScreen-buttons {
@@ -26,6 +50,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
 
 .HomeScreen-button {

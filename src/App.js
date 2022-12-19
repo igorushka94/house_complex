@@ -6,8 +6,10 @@ import Partners from './components/partners/Partners';
 // import Popup from "./components/popup/Popup";
 import Documents from "./components/documents/Documents";
 import Error404 from "./components/error404/Error404";
-import TittleButtons from './components/home_screen/TittleButtons';
 import Apatment from './components/apatment/Apatment';
+import HomeScreen from './components/home_screen/HomeScreen';
+import Infrastructure from './components/infrastructure/Infrastructure';
+import Progress from './components/progress/Progress';
 
 import { Routes, Route } from "react-router-dom";
 
@@ -23,11 +25,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Benefit title="ЖК Возрождение" />
       <Partners />
-      <TittleButtons count="1000" price="3 млн." region1="Западном районе" city="Ростова-на-Дону" />
       <Apatment />
-
+      <HomeScreen />
+      <Benefit title="ЖК Возрождение" />
+      <Infrastructure />
+      <Progress />
       {/*<Popup />*/}
       {/* <Documents />*/}
       <Footer />

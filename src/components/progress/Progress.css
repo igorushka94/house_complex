@@ -1,0 +1,46 @@
+.Progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.Progress.houses {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+}
+
+.Progress.houses.item{
+    align-items: center;
+
+    margin: 5px;
+
+    width: 307.5px;
+    height: 72px;
+
+    /* Gradient/Blue Gradient */
+    background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+    border-radius: 72px;
+}
+
+
+.Progress.houses-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 10px;
+
+    overflow-x: auto;
+}
+
+.Progress.houses-photo.item {
+    width: 300px;
+    height: 300px;
+
+    background: linear-gradient(0deg, rgba(0, 32, 64, 0.25), rgba(0, 32, 64, 0.25));
+    border-radius: 20px;
+}
