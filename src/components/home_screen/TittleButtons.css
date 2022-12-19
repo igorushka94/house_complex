@@ -1,0 +1,104 @@
+.TitleButtons {
+    /* Title / Buttons */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    left: 320px;
+    top: 320px;
+
+    text-align: left;
+}
+
+.TitleButtons-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 54px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Blue/Blue 03 */
+    color: #002040;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.TitleButtons-buttons {
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#choise-btn {
+    /* Button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    gap: 25px;
+
+    width: 326px;
+
+    /* Gradient/Blue Gradient */
+    background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+
+    /* Button Effects */
+    box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+    border-radius: 79px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+#consultation-btn {
+    /* Button */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    gap: 25px;
+
+    width: 326px;
+    height: 80px;
+
+    /* Blue/Blue 03 */
+    border: 1px solid #002040;
+    border-radius: 79px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    cursor: pointer;
+}

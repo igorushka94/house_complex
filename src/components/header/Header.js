@@ -6,7 +6,7 @@ import NumberShedule from './NumberShedule';
 
 function Header() {
     return (
-        <div className='Header'>
+        <div className='header'>
             <Logo />
             <Menu />
             <NumberShedule 

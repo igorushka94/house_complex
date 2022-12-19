@@ -1,0 +1,59 @@
+.Documents {
+    /* Документы */
+
+    position: absolute;
+    left: 540px;
+    top: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.Documents-item {
+    /* Frame */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    margin: 10px;
+
+    width: 840px;
+    height: 80px;
+
+    /* White & Gray/White */
+    background: #FFFFFF;
+
+    /* Shadow Blue 01 */
+    box-shadow: 0px 20px 20px rgba(0, 63, 128, 0.05);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Documents-item-title {
+    flex-grow: 1;
+    text-align: start;
+}
+
+#Documents-item-icon-viev {
+    background: url("../../assets/img/view.svg");
+    width: 24px;
+    height: 24px;
+}
+
+#Documents-item-icon-download {
+    background: url("../../assets/img/download.svg");
+    width: 24px;
+    height: 24px;
+}

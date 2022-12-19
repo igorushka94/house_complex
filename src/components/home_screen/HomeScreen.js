@@ -3,7 +3,9 @@ import "./HomeScreen.css";
 
 function HomeScreen() {
     return(
-        <div className="HomeScreen"></div>
+        <div className="HomeScreen">
+            
+        </div>
     );
 }
 
