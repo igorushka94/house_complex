@@ -10,6 +10,9 @@ import Apatment from './components/apatment/Apatment';
 import HomeScreen from './components/home_screen/HomeScreen';
 import Infrastructure from './components/infrastructure/Infrastructure';
 import Progress from './components/progress/Progress';
+import Schedule from './components/schedule/Schedule';
+import Sale from './components/sale/Sale';
+import Reviews from './components/reviews/Reviews';
 
 import { Routes, Route } from "react-router-dom";
 
@@ -25,12 +28,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Partners />
-      <Apatment />
       <HomeScreen />
       <Benefit title="ЖК Возрождение" />
       <Infrastructure />
       <Progress />
+      <Schedule />
+      <Apatment />
+      <Sale />
+      <Reviews />
+      <Partners />
       {/*<Popup />*/}
       {/* <Documents />*/}
       <Footer />

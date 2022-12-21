@@ -1,0 +1,54 @@
+.Sale {
+    width: 100%;
+
+}
+
+.Sale.blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.Sale.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px;
+}
+
+.Sale.block-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+
+    width: 840px;
+    height: 170px;
+
+    /* Blue/Blue 01 */
+    background: #F2F9FF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Sale.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 40px;
+    gap: 20px;
+
+    /* Blue/Blue 01 */
+    background: #F2F9FF;
+    border-radius: 20px;
+}
