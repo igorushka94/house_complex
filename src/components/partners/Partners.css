@@ -1,5 +1,5 @@
 .Partners {
-    /* Наши партнеры */
-    width: 1280px;
-    height: 264px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
 }

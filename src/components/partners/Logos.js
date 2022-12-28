@@ -1,19 +1,19 @@
 import "./Logos.css";
-import logo from "../../logo.svg"
+import Buttons from "../buttons/Button";
 
 
 function Logos() {
 
     return(
         <div className="Logos">
-            <div className="Logos-btn center-text">
-                <button>prev</button>
+            <Buttons direction="left" />
+            <div className="Logos items">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
             </div>
-            <div className="Logos-item center-text">2</div>
-            <div className="Logos-btn center-text">
-                <button>next</button>
-            </div>
-        </div>
+            <Buttons direction="right" />
+        </div> 
     );
 }
 

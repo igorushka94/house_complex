@@ -1,49 +1,11 @@
 .Logos {
-    /* Logos */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.Logos-btn {
-    align-items: center;
-}
-
-.center-text {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.Logos-item {
-    width: 100%;
-    height: 120px;
-    border: solid 1px black;
-}
-
-.Logos-slider__items {
+.Logos.items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 540px;
+    justify-content: space-evenly;
 }
-
-#Logos-slider__btn_next {
-    /* Стрелка для слайдера вправо */
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-left: 30px solid blue;
-    border-bottom: 50px solid transparent;
-}
-
-#Logos-slider__btn_prev {
-    /* Стрелка для слайдера влево */
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-right: 30px solid blue;
-    border-bottom: 50px solid transparent;
-}
-
