@@ -1,8 +1,39 @@
 .Schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
 
+.Schedule.work {
 }
 
 
-.Schedule.work {
-    
+th {
+    padding: 0.5em;
+    color: white;
+    border: solid 1px white;
+    background: #007FFF;
+}
+
+.names_work {
+    padding: 0.3em;
+    text-align: left;
+    background: #F2F2F2;
+}
+
+.names_work.paragraph {
+    text-align: center;
+    font-weight: bold;
+}
+
+.names_work_description td {
+    border: solid 1px #F2F2F2;
+    cellspacing: 0;
+}
+
+.names_work.details {
+    padding: 0.3em;
+    text-align: left;
+    background: white;
 }
